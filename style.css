@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('https://fonts.gstatic.com/s/lato/v11/22JRxvfANxSmnAhzbFH8PgLUuEpTyoUstqEm5AMlJo4.woff2') format('woff2');
+}
+
+body {
+    background-color: #223b54;  
+    font-family: 'Lato', sans-serif; 
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    margin: 0;
+} 
+
+#content {
+    position: absolute;
+    top: 50%;
+    margin: -40vh auto 0;
+    width: 100%;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    color: white;
+}
+
+li {
+    border-left: 2px solid #223b54;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+li:hover {
+    border-left: 2px solid white;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+
+.list {
+    display: inline-block;
+    margin: 20px 10px 10px 10px;
+    width: 200px;
+    background-color: #0b1c2c;
+    padding-bottom: 20px;
+    height: 273px;
+    -webkit-box-shadow: 0px 0px 300px -21px rgba(0,0,0,0.42);
+    -moz-box-shadow: 0px 0px 300px -21px rgba(0,0,0,0.42);
+    box-shadow: 0px 0px 300px -21px rgba(0,0,0,0.42);
+}
+
+.list p {
+    color: white;
+}
+
+input, input:focus {
+    width: 640px;
+    background: #0b1c2c;
+    -webkit-appearence: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 5px 5px 5px 5px;
+    -webkit-box-shadow: 0px 0px 300px -21px rgba(0,0,0,0.42);
+    -moz-box-shadow: 0px 0px 300px -21px rgba(0,0,0,0.42);
+    box-shadow: 0px 0px 300px -21px rgba(0,0,0,0.42);
+}
+
+a {
+    text-decoration: none; 
+    color: white;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #60646D;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #60646D;
+    opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #60646D;
+    opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #60646D;
+}
