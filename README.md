@@ -1,6 +1,9 @@
 # Startpage
 This is a custom startpage I have made after seeing the ones on /r/startpages and wanting to make one myself. You can see it live [here](https://rickypinder.github.io/startpage/)
 
+![command example](https://i.gyazo.com/55fe2178c716785d26c46f1c2b9105a9.gif)
+
+
 ## Features
 + Clock
 + Links to commonly used websites 
