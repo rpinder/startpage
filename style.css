@@ -71,9 +71,9 @@ input, input:focus {
     -moz-appearance: none;
     -ms-appearance: none;
     outline: none;
+    border: 1px solid #EAEAEA;
     color: white;
     font-size: 18px;
-    border: none;
     padding: 5px 5px 5px 5px;
     -webkit-box-shadow: 0px 0px 300px -21px rgba(0,0,0,0.42);
     -moz-box-shadow: 0px 0px 300px -21px rgba(0,0,0,0.42);
