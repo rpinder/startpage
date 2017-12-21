@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #223b54;  
+    background-color: #1B1B1B;  
     font-family: 'Lato', sans-serif; 
     color: white;
     text-align: center;
@@ -34,7 +34,7 @@ ul {
 }
 
 li {
-    border-left: 2px solid #223b54;
+    border-left: 2px solid #1B1B1B;
     padding-left: 10px;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -52,7 +52,7 @@ li:hover {
     display: inline-block;
     margin: 20px 10px 10px 10px;
     width: 200px;
-    background-color: #0b1c2c;
+    background-color: #101010;
     padding-bottom: 20px;
     height: 273px;
     -webkit-box-shadow: 0px 0px 300px -21px rgba(0,0,0,0.42);
@@ -66,7 +66,7 @@ li:hover {
 
 input, input:focus {
     width: 640px;
-    background: #0b1c2c;
+    background: #101010;
     -webkit-appearence: none;
     -moz-appearance: none;
     -ms-appearance: none;
