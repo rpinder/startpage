@@ -2,7 +2,7 @@
 
 ![screenshot](screenshot.jpg)
 
-Test it out at [rpinder.com/startpage](https://rpinder.com/startpage)
+Test it out at [rpinder.com/startpage](http://rpinder.com/startpage)
 
 ## Commands
 + 't' takes you to a specified twitter account
