@@ -72,6 +72,7 @@ input, input:focus {
     -ms-appearance: none;
     outline: none;
     border: 1px solid #EAEAEA;
+    border-radius: 2px;
     color: white;
     font-size: 18px;
     padding: 5px 5px 5px 5px;
