@@ -1,6 +1,6 @@
 # Startpage
 
-![screenshot](screenshot.jpg)
+![screenshot](startpagescreenshot.png)
 
 Test it out at [rpinder.com/startpage](http://rpinder.com/startpage)
 
