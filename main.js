@@ -22,7 +22,7 @@ function interpretSearch() {
     };
 
     searchTerms += keywords[search[0]] == null
-        ? "https://google.com/search?q=" + search[0]
+        ? "https://google.com/search?q=" + search[0] + search[1]
         : keywords[search[0]] + search[1];
     
     for (var i = 2; i < search.length; i++) {
