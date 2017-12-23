@@ -12,41 +12,23 @@ function checkTime(i) {
 function interpretSearch() {
     var search = document.getElementById("js-search-input").value.split(" ");
     var searchTerms = "";
-    console.log(search[0])
-    switch(search[0])
-    {
-        case '?':
-            alert("t: twitter\ntw: twitch\nr: reddit\ny: youtube\na: amazon");
-            break;
-        case 't':
-            window.location.href = "https://twitter.com/" + search[1];
-            return false;
-        case 'tw':
-            window.location.href = "https://twitch.tv/" + search[1];
-            return false;
-        case 'r':
-            window.location.href = "https://reddit.com/r/" + search[1];
-            return false;
-        case 'y':
-            for(var i = 1; i < search.length; i++)
-            {
-                searchTerms += search[i]+'+';
-            }
-            window.location.href = "https://youtube.com/results?search_query=" + searchTerms;
-            return false;
-        case 'a':
-            for(var i = 1; i < search.length; i++)
-            {
-                searchTerms += search[i]+'+';
-            }
-            window.location.href = "https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=" + searchTerms;
-            return false;
-        default:
-            for(var i = 0; i < search.length; i++)
-            {
-                searchTerms += search[i]+'+';
-            };
-            window.location.href = "https://google.com/search?q="+searchTerms;
-            return false;
+
+    var keywords = {
+        't': 'https://twitter.com/',
+       'tw': 'https://twitch.tv/',
+        'r': 'https://reddit.com/r/',
+        'y': 'https://youtube.com/results?search_query=',
+        'a': 'https://www.amazon.co.uk/s/url=search-alias%3Daps&field-keywords='
+    };
+
+    searchTerms += keywords[search[0]] == null
+        ? "https://google.com/search?q=" + search[0]
+        : keywords[search[0]] + search[1];
+    
+    for (var i = 2; i < search.length; i++) {
+        searchTerms += "+"+search[i];
     }
+
+    window.location.href = searchTerms;
+    return false;
 };
