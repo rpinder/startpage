@@ -1,9 +1,3 @@
-# Moved to gitlab
-
-https://gitlab.com/rpinder/startpage/
-
-
-
 # Startpage
 
 ![screenshot](startpagescreenshot.png)
